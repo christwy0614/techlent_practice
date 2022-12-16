@@ -19,9 +19,6 @@ import pandas as pd
 
 head = "https://www.indeed.com/"
 
-chromedriver = "/Applications/chromedriver"
-os.environ["webdriver.chrome.driver"] = chromedriver
-
 job_titles = ["data+scientist"]
 
 def get_soup(url):
